@@ -1,0 +1,33 @@
+.App-logo {
+  margin-left: 9%
+}
+.block {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.App {
+  margin-left: 10%;
+  display: flex;
+  gap: 100px;
+}
+.line {
+  display: flex;
+  gap: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+h2, p {
+  font-family: "Oately Regular", Helvetica, Arial, sans-serif;
+}
